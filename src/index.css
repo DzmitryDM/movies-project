@@ -11,3 +11,34 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+nav{
+   padding: 0 1rem;
+}
+
+.content{
+min-height: calc(100vh - 70px - 64px);
+padding: 1.5rem 0;
+}
+.movies{
+display: grid;
+grid-template-columns: repeat(auto-fill,minmax(300px,1fr));
+gap: 0.8rem;
+}
+
+.preloader{
+font-size: 49px;
+font-weight: 800;
+}
+
+
+label:not(:last-child){
+margin-right: 10rem;
+}
+
+button{
+margin-bottom: 1.5rem;
+}
+input{
+margin-bottom: 1.5rem;
+}
